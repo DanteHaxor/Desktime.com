@@ -20,6 +20,7 @@ img{
     justify-content: space-evenly;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     width: 100%;
+    background-color: white;
 }
 #logo{
 height: auto;
@@ -204,4 +205,89 @@ ul>li>img{
 .i>img{
     margin-top: 25%;
     width: 100%;
+}
+.fea{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+.fea>div{
+    background-color: rgb(235,236,236);
+    font-size: 20px;
+    padding: 1%;
+    color: gray;
+}
+.fea2{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+.fea2>div{
+    background-color: rgb(235,236,236);
+    font-size: 20px;
+    padding: 1%;
+    color: gray;
+}
+.fea3{
+    display: flex;
+    width: 65%;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+.fea3>div{
+    background-color: rgb(235,236,236);
+    font-size: 20px;
+    padding: 1%;
+    color: gray;
+}
+.fea4{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+.fea4>div{
+    background-color: rgb(235,236,236);
+    font-size: 20px;
+    padding: 2%;
+    color: gray;
+}
+.fea5{
+    width: 15%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding: 1%;
+    border: 1px solid rgb(74,81,100);
+    font-size: 20px;
+    text-align: center;
+    color: rgb(74,81,100);
+}
+.fea6{
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+.fourth-content{
+    background-color: rgb(245,245,246);
+    width: 100%;
+    height: 500px;
+    margin-top: 5%;
+}
+.fourth-content>div:nth-child(1){
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+}
+.fcards{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.fclogo{
+    display: flex;
 }
