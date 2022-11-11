@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+hr{
+    background-color: rgb(78,168,25);
+    color: rgb(78,168,25);
+    height: 3px;
+}
+img{
+    width: 80px;
+}
+#navbar{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 100%;
+    background-color: white;
+}
+#logo{
+height: auto;
+display: flex;
+align-items: center;
+}
+.navbarul{
+    display: flex;
+    align-items: center;
+    margin-right: 25%; 
+}
+.navbarli{
+    list-style: none;
+    margin: 5%;
+    font-size: 18px;
+    color: gray;
+    font-weight: bolder;
+}
+.navbarul>li:nth-child(8){
+    margin: 0px;
+}
+#login{
+    width: 70px;
+    height: 40px;
+    font-size: 16px;
+    border:1px solid rgb(78,168,25);
+    color: rgb(75,90,112);
+    border-radius: 4px;
+    background-color: white;
+}
+#signup{
+    background-color: rgb(78,168,25);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 70px;
+    height: 40px;
+    font-size: 16px;
+}
+ul>li:nth-child(9){
+    margin-top: 5%;
+    display: flex;
+}
+ul>li>img{
+    margin-top: 5%;
+    width: 15px;
+    height: 15px;
+    padding: 4%;
+}
+
+#LogInMain {
+  width: 550px;
+  height: 680px;
+  float: auto;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#LoginHere {
+  width: 400px;
+  height: 350px;
+  border: 0px solid gray;
+  text-align: center;
+  margin: auto;
+  border-radius: 2px;
+  padding-top: 10px;
+}
+#LoginHere > input {
+  height: 50px;
+  width: 370px;
+  text-align: left;
+  margin: 10px;
+  padding-left: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.395);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.027),
+    0 6px 20px 0 rgba(0, 0, 0, 0.088);
+  border-radius: 4px;
+}
+#LoginHere > button {
+  height: 50px;
+  width: 370px;
+  text-align: center;
+  margin: 10px;
+  background-color: #5fb92a;
+  color: white;
+  border: 1px solid #5fb92a;
+  border-radius: 5px;
+  font-size: 22px;
+}
+#spanGreen {
+  color: #5fb92a;
+  font-weight: bold;
+}
+#ConnectWith {
+  max-width: 400px;
+  height: 130px;
+  text-align: center;
+  margin: auto;
+  float: auto;
+  border: 0px solid black;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+#ConnectWith > div > div {
+  width: 85px;
+  height: 40px;
+  text-align: center;
+
+  float: left;
+
+  margin: 5px;
+  border-radius: 5px;
+}
+#ConnectWith > div > div:nth-child(1) {
+  background-image: url(https://desktime.com/assets/img/icons/facebook_v2.svg);
+  margin-left: 25px;
+}
+#ConnectWith > div > div:nth-child(2) {
+  background-image: url(https://desktime.com/assets/img/icons/twitter_v2.svg);
+}
+#ConnectWith > div > div:nth-child(3) {
+  background-image: url(https://desktime.com/assets/img/icons/linkedin_v2.svg);
+}
+#ConnectWith > div > div:nth-child(4) {
+  background-image: url(https://desktime.com/assets/img/icons/google_v2.svg);
+}
+#loginH1font {
+  font-size: 30px;
+  color: gray;
+}
+#ForgetpassFont {
+  font-size: 15px;
+  color: gray;
+}
+#loginFont {
+  font-size: 15px;
+  color: gray;
+  margin-left: unset;
+}
+h1{
+  margin-left: 15%;
+  font-size: 37px;
+  margin-bottom: 4%;
+}
+#em{
+  margin-right: 84%;
+}
+#pp{
+  margin-right: 78%;
+}
+h3{
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+#LogInMain button{
+  width: 96%;
+}
+.eight-content{
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+.eight-content h3{
+  margin: 10px auto;
+  font-weight: lighter;
+  margin-left: 5px;
+}
+.eightul{
+  list-style: none;
+}
+.eightli{
+  font-weight: lighter;
+  font-size: 17px;
+  color: gray;
+  padding: 3%;
+  }
+  .footer>div:nth-child(1){
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 80%;
+      margin: auto;
+  }
+  .footer>div:nth-child(2){
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 80%;
+  }
+  #google-play{
+      margin-left: 70%;
+  }
+  #app-store{
+      margin-left: 0px;
+  }
+  #flogo{
+      display: flex;
+      align-items: center;
+  }
+ .footer{
+  background-color: rgb(235,236,236);
+  padding: 1%;
+ }
+ .foot1{
+  display: flex;
+  width: 78%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .foot{
+  background-color: rgb(214,216,217);;
+ }
+ .foot1 h3{
+  margin-top: 0px;
+ }
