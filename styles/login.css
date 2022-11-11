@@ -99,6 +99,9 @@ ul>li>img{
     0 6px 20px 0 rgba(0, 0, 0, 0.088);
   border-radius: 4px;
 }
+.limg{
+  width: 50px;
+ }
 #LoginHere > button {
   height: 50px;
   width: 370px;

@@ -10,6 +10,9 @@ hr{
 img{
     width: 80px;
 }
+.limg{
+  width: 50px;
+}
 #navbar{
     position: sticky;
     top: 0px;
