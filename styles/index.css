@@ -476,3 +476,27 @@ ul>li>img{
    .limg{
     width: 50px;
    }
+   .swiper-slide{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+   }
+   .scard{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 25%;
+    padding: 1%;
+   }
+    .scard>div:nth-child(1){
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+   }
+   .scard>div>div:nth-child(2){
+    margin-left: 20px;
+   }
+   .scard>div:nth-child(2){
+    margin-top: 10px;
+    font-size: 20px;
+    color: gray;
+   }
